@@ -25,11 +25,9 @@ git add [file1] [file2]
 git add . 表示添加所有文件
 
 #删除工作区文件，并且这次删除放入暂存区
-
 git rm [file1] [file2]
 
 #改名文件，并且将这个改名放入暂存区
-
 git mv [file-origin] [file-renamed]
 
 #提交暂存区到仓库
@@ -48,6 +46,13 @@ git log --oneline
 git show 查看某次提交的版本信息
 
 
-  
+#增加远程仓库，并命名
+git remote add [shortname] [url]
+
+#将本地的提交推送到远程仓库
+git push [remote] [branch]
+
+#将远程仓库的提交拉下到本地
+git pull [remote] [branch]
 
 
